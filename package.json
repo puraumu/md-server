@@ -1,0 +1,27 @@
+{
+  "name": "md-server",
+  "version": "0.0.0",
+  "description": "a markdown rendering server inspired by http-server",
+  "main": "index.js",
+  "bin": {
+    "md-server": "md-server.js"
+  },
+  "dependencies": {
+    "commander": "~1.0.4",
+    "stylus": "~0.29.0",
+    "connect": "~2.4.6",
+    "marked": "~0.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": "",
+  "keywords": [
+    "markdown",
+    "server",
+    "static"
+  ],
+  "author": "md",
+  "license": "MIT"
+}
