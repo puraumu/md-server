@@ -20,7 +20,7 @@ program.name = 'md-server';
 
 program.parse(process.argv);
 
-var root = program.args[0];
+var root = program.args[0] || './';
 
 if (program.port) {
   var port = parseInt(program.port, 10);
