@@ -4,15 +4,17 @@
   "description": "a markdown rendering server inspired by http-server",
   "main": "index.js",
   "bin": {
-    "md-server": "md-server.js"
+    "md-server": "./bin/md-server"
   },
   "dependencies": {
     "commander": "~1.0.4",
-    "stylus": "~0.29.0",
     "connect": "~2.4.6",
     "marked": "~0.2.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "stylus": "~0.29.0",
+    "nib": "~0.8.2"
+  },
   "scripts": {
     "test": "test"
   },
