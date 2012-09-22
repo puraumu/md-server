@@ -4,13 +4,13 @@
 
 ## Usage:
 
-     md-server [path] [options]
+	md-server [path] [options]
 
 `[path]` defaults to `./`.
 
 ### Starting md-server locally
 
-     node bin/md-server
+	node bin/md-server
 
 *Now you can visit http://localhost:8080 to view your server*
 
