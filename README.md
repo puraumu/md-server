@@ -1,6 +1,12 @@
+
 # md-server: a markdown rendering server inspired by [http-server](https://github.com/nodeapps/http-server)
 
 `md-server` is a simple, zero-configuration command-line http server. It is simple to be used for viewing README, browsing docs and testing.
+
+## Install
+
+    $ git clone https://github.com/puraumu/md-server
+    $ npm install md-server
 
 ## Usage:
 
