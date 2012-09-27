@@ -1,6 +1,6 @@
 {
   "name": "md-server",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a markdown rendering server inspired by http-server",
   "main": "index.js",
   "bin": {
@@ -18,12 +18,15 @@
   "scripts": {
     "test": "test"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/puraumu/md-server"
+  },
   "keywords": [
     "markdown",
     "server",
     "static"
   ],
-  "author": "md",
+  "author": "puraumu",
   "license": "MIT"
 }
